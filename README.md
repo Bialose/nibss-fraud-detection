@@ -1,5 +1,5 @@
-# [Project Title]
-> *One sentence. What did you analyze, build, or solve - and why does it matter?*
+NIBSS fraud Analytics
+> Analyzing NIBSS financial transaction data to detect patterns of fraudulent activity — helping financial institutions identify, understand, and reduce fraud risks that cost the Nigerian banking system billions annually
 
 ---
 
@@ -9,11 +9,8 @@
 - [ ] Exploratory Data Analysis (EDA)
 - [ ] SQL Analysis / Querying
 - [ ] Dashboard / Data Visualization
-- [ ] Data Pipeline / ETL
-- [ ] Predictive Modelling / Machine Learning
 - [ ] Data Cleaning / Wrangling
-- [ ] End-to-End (multiple of the above)
-- [ ] Other: ___________
+
 
 ---
 
