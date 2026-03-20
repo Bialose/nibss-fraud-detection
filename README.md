@@ -1,4 +1,4 @@
-NIBSS fraud Analytics
+Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 > Analyzing NIBSS financial transaction data to detect patterns of fraudulent activity — helping financial institutions identify, understand, and reduce fraud risks that cost the Nigerian banking system billions annually
 
 ---
