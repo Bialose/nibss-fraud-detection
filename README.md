@@ -81,10 +81,10 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
   (These can't fail - which means they can't succeed either.)
 -->
 
-- **Primary Objective:** [The main thing you set out to do]
-- **Secondary Objective 1:** [Supporting goal]
-- **Secondary Objective 2:** [Supporting goal]
-- **Secondary Objective 3:** [Remove if not applicable]
+- **Primary Objective:** Analyze transaction-level patterns to identify distinguishing characteristics of fraudulent financial activities in the Nigerian banking ecosystem
+- **Secondary Objective 1:** Profile transaction amount behaviors — compare value distributions, frequency patterns, and velocity indicators between fraudulent and legitimate transactions
+- **Secondary Objective 2:** Examine channel and device vulnerabilities — analyze fraud rates across payment channels (web, mobile, POS, ATM) and device types to identify high-risk access points.
+- **Secondary Objective 3:** Map temporal fraud dynamics — uncover hourly, daily, and seasonal patterns in fraudulent transaction timing
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
