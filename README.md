@@ -109,10 +109,15 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **In Scope** |  Transaction Destination - Receiver characteristics, fund flow patterns, suspicious destination profiling 
+Transaction Flow - Network visualization, suspicious pairing identification
+Origination - Sender balance changes, account behavior patterns, balance depletion analysis|
+| **Out of Scope** |Geographic dat - Cannot perform geospatial fraud hotspot analysis
+Demographics - Cannot profile fraud by customer segments
+Transaction narrative - Cannot analyze fraud by transaction intent
+No merchant category or ID - Cannot identify high-risk merchant types|
+| **Time Period** | From March 2st |
+<!----| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |---->
 
 ### Tools & Technologies
 
@@ -123,13 +128,12 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
+| Data Storage | CSV files |
+| Data Processing | Python, Excel|
+| Analysis | pandas, dplyr, |
+| Visualization | Matplotlib, Tableau, Power BI|
+| Version Control | Git / GitHub] |
 | Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
 
 ---
 
