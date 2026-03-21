@@ -4,12 +4,12 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 ---
 
 ## ⚙️ Project Type Flags
-> *Check what applies. This helps reviewers and collaborators understand the nature of the work at a glance. Delete this block before publishing.*
 
 - [ ] Exploratory Data Analysis (EDA)
 - [ ] SQL Analysis / Querying
 - [ ] Dashboard / Data Visualization
 - [ ] Data Cleaning / Wrangling
+- [ ] Python / Pandas, Numpy etc
 
 
 ---
@@ -53,13 +53,13 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
   (Too vague. Could describe 10,000 projects. Describes none of them.)
 -->
 
-**Context:** [The business, research, or personal situation that motivated this project.]
+**Context:** [Nigerian financial institutions face escalating digital payment fraud, yet limited public datasets have hindered research into localized fraud patterns. The NIBSS dataset provides the first comprehensive, real-world transaction records from Africa's largest economy, enabling data-driven exploration of fraud behaviors specific to emerging market banking contexts]
 
-**Problem Statement:** [The specific question or challenge you were addressing.]
+**Problem Statement:** [Financial fraud detection suffers from extreme class imbalance, evolving attack patterns, and opaque decision-making. Analysts need rigorous exploratory methods to uncover distinguishing signals between legitimate and fraudulent transactions without relying on black-box models. This project addresses: How can systematic data analysis and visualization reveal interpretable fraud indicators from complex banking transaction data.]
 
-**Approach:** [In 1–2 sentences - how did you tackle it?]
+**Approach:** [This project employs a visualization-first analytical pipeline using Python's scientific stack (Pandas, Plotly, Seaborn) within Jupyter notebooks. The methodology progresses through data quality validation, univariate profiling, bivariate relationship analysis, temporal pattern extraction, and multivariate correlation discovery—all documented through reproducible, interactive visualizations that prioritize interpretability over predictive performance]
 
-**Outcome:** [What did you produce or discover?]
+**Outcome:** [Deliverables include a public GitHub repository of annotated analytical notebooks, reusable visualization utilities, and documented insights into temporal fraud peaks, transaction amount signatures, and channel-specific vulnerabilities. Outputs serve as both educational resource for fraud analytics practitioners and exploratory foundation for future predictive modeling work]
 
 ---
 
