@@ -500,8 +500,8 @@ erDiagram
 
 **Emmanuel Ejike**
 Data Scientist & Cloud Engineer
-- 🔗 (https://www.linkedin.com/in/emmanuel-ejike-690319314)
-- 💼 Link to Project- (http://localhost:8888/notebooks/NIBSS%20Project.ipynb)
+- 🔗 linkedin- (https://www.linkedin.com/in/emmanuel-ejike-690319314)
+- 💼 Link to Project- http://localhost:8888/notebooks/NIBSS%20Project.ipynb
 - 📧 ejemmanuelejike@hotmail.com
 
 ---
