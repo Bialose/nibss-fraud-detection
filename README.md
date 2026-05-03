@@ -501,7 +501,7 @@ erDiagram
 **Emmanuel Ejike**
 Data Scientist & Cloud Engineer
 - 🔗 linkedin- (https://www.linkedin.com/in/emmanuel-ejike-690319314)
-- 💼 Link to Project- http://localhost:8888/notebooks/NIBSS%20Project.ipynb
+- 💼 Link to Project- (https://colab.research.google.com/drive/1A7ZILuiKjDPdEucTW7sX8uNuUjnyMNer#scrollTo=be3874b5-d76f-4e53-988c-cd426cb29ab2)
 - 📧 ejemmanuelejike@hotmail.com
 
 ---
