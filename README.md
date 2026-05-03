@@ -16,10 +16,11 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 ## Table of Contents
 1. [Project Overview](#1-project-overview)
 2. [Objectives](#2-objectives)
-3. [Project Scope & Tools](#3-project-scope--tools)
-4. [Repository Structure](#4-repository-structure)
-5. [Data Workflow](#5-data-workflow)
-6. [Data Model & Schema](#6-data-model--schema)
+ <!--
+4. [Project Scope & Tools](#3-project-scope--tools)
+5. [Repository Structure](#4-repository-structure)
+6. [Data Workflow](#5-data-workflow)
+7. [Data Model & Schema](#6-data-model--schema)
 *
 8. [Analysis & Metrics](#8-analysis--metrics)
 9. [Key Insights](#9-key-insights)
@@ -29,11 +30,10 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 13. [Deliverables](#13-deliverables)
 14. [Author](#14-author)
 
----
+--->
 
 ## 1. Project Overview
-e. Could describe 10,000 projects. Describes none of them.)
--->
+
 
 **Context:** Nigerian financial institutions face escalating digital payment fraud, yet limited public datasets have hindered research into localized fraud patterns. The NIBSS dataset provides the first comprehensive, real-world transaction records from Africa's largest economy, enabling data-driven exploration of fraud behaviors specific to emerging market banking contexts.
 
@@ -70,7 +70,7 @@ e. Could describe 10,000 projects. Describes none of them.)
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
----
+<!--
 
 ## 3. Project Scope & Tools
 
@@ -87,7 +87,7 @@ e. Could describe 10,000 projects. Describes none of them.)
   WHAT TO AVOID:
   ❌ Leaving Out of Scope blank. This is the section that protects your credibility.
      If you don't define the fence, reviewers assume you missed things.
--->
+
 
 | Dimension | Details |
 |-----------|---------|
@@ -106,7 +106,7 @@ No merchant category or ID - Cannot identify high-risk merchant types|
 <!--
   List only what you actually used on this project.
   This is not your skills section - it's the project's technical context.
--->
+
 
 | Category | Tool(s) Used |
 |----------|-------------|
@@ -175,9 +175,9 @@ No merchant category or ID - Cannot identify high-risk merchant types|
 
   WHAT TO AVOID:
   ❌ "Data was cleaned and analysed." (No chain. No decisions. No trust.)
--->
 
-```
+
+
 [Data Source(s)]
       ↓
 [Ingestion / Collection Method]
@@ -219,7 +219,6 @@ No merchant category or ID - Cannot identify high-risk merchant types|
 
   📌 FOR NON-SQL PROJECTS: Describe the shape of your dataset informally
      if a formal schema doesn't apply. Even one paragraph is more helpful than nothing.
--->
 
 ### Dataset / Table: `[name]`
 
@@ -259,7 +258,6 @@ No merchant category or ID - Cannot identify high-risk merchant types|
     GitHub will render this as a diagram automatically.
 
   PICK ONE. Don't use all three. Delete the options you don't use.
--->
 
 ### Option A - Embedded Image
 ![ERD Diagram](visuals/erd.png)
@@ -346,7 +344,7 @@ erDiagram
      That's an implementation. Write the plain-language definition here.
      Both belong in your project - the definition in the README,
      the implementation in the code.
--->
+
 
 ### Analytical Approach
 
@@ -389,7 +387,7 @@ erDiagram
       An insight says what it means and where to look next.)
 
   Aim for 3–6 insights. Quality over quantity.
--->
+
 
 **Insight 1: [Short descriptive headline]**
 [What you found + what it suggests. One short paragraph.]
@@ -407,7 +405,7 @@ erDiagram
 
 ## 10. Recommendations
 
-<!--
+
   Action-oriented. Addressed to a real audience.
   Tied explicitly to the insight that supports each one.
 
@@ -424,7 +422,7 @@ erDiagram
      (Not actionable. Doesn't say who, how, or where to start.)
   ❌ "Further analysis is needed."
      (This is a placeholder, not a recommendation.)
--->
+
 
 | Priority | Recommendation | Based On | Suggested Owner |
 |----------|---------------|----------|-----------------|
@@ -449,7 +447,7 @@ erDiagram
   ❌ Leaving this section blank or writing "None known."
      Every project has limitations. Documenting them is a sign of
      analytical maturity - not a confession of failure.
--->
+--
 
 ### Assumptions
 - [What did you treat as true without being able to verify?]
@@ -468,7 +466,7 @@ erDiagram
 
 ## 12. Future Enhancements
 
-<!--
+
   WHAT GOOD LOOKS LIKE:
   ✅ "Automate the monthly data pull from the POS export folder using
       a scheduled Python script, replacing the current manual process."
@@ -479,7 +477,7 @@ erDiagram
   ❌ "Add a machine learning model."
      (Vague, and disconnected from the actual findings of this project.)
   ❌ Listing aspirational features that don't follow logically from the work.
--->
+--
 
 - [ ] [Enhancement 1 - specific and traceable to a real gap in this project]
 - [ ] [Enhancement 2]
@@ -496,12 +494,12 @@ erDiagram
 | [Name] | [What it contains] | [`/path/to/file`] |
 | [Name] | [What it contains] | [`/path/to/file`] |
 
----
+--->
 
 ## 14. Author
 
-**[Your Name]**
-[Your role or title - current or target]
+**[Emmanuel Ejike]**
+[Data Scientist & Cloud Engineer]
 
 - 🔗 [(https://www.linkedin.com/in/emmanuel-ejike-690319314)]
 - 💼 [Portfolio or GitHub profile URL]
