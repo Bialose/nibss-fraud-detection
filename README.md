@@ -101,7 +101,7 @@ No merchant category or ID - Cannot identify high-risk merchant types|
 | **Time Period** | From March 2st |
 <!----| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |---->
 
-### Tools & Technologies
+<!--### Tools & Technologies
 
 <!--
   List only what you actually used on this project.
@@ -498,13 +498,12 @@ erDiagram
 
 ## 14. Author
 
-**[Emmanuel Ejike]**
-[Data Scientist & Cloud Engineer]
-
-- 🔗 [(https://www.linkedin.com/in/emmanuel-ejike-690319314)]
-- 💼 [Portfolio or GitHub profile URL]
-- 📧 [ejemmanuelejike@hotmail.com]
+**Emmanuel Ejike**
+Data Scientist & Cloud Engineer
+- 🔗 (https://www.linkedin.com/in/emmanuel-ejike-690319314)
+- 💼 Link to Project- (http://localhost:8888/notebooks/NIBSS%20Project.ipynb)
+- 📧 ejemmanuelejike@hotmail.com
 
 ---
 
-*Last updated: [Month YYYY]*
+*Last updated: [April 2026]*
