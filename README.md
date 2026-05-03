@@ -6,7 +6,6 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 ## ⚙️ Project Type Flags
 
 - [ ] Exploratory Data Analysis (EDA)
-- [ ] SQL Analysis / Querying
 - [ ] Dashboard / Data Visualization
 - [ ] Data Cleaning / Wrangling
 - [ ] Python / Pandas, Numpy etc
@@ -21,7 +20,7 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 4. [Repository Structure](#4-repository-structure)
 5. [Data Workflow](#5-data-workflow)
 6. [Data Model & Schema](#6-data-model--schema)
-7. [ERD - Entity Relationship Diagram](#7-erd--entity-relationship-diagram) *(SQL projects)*
+*
 8. [Analysis & Metrics](#8-analysis--metrics)
 9. [Key Insights](#9-key-insights)
 10. [Recommendations](#10-recommendations)
@@ -33,24 +32,7 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 ---
 
 ## 1. Project Overview
-
-<!--
-  Write 3–5 sentences in plain language.
-  Cover: context → problem → approach → outcome.
-  Read it out loud. If it sounds like a form - rewrite it.
-
-  WHAT GOOD LOOKS LIKE:
-  "A mid-size retail business was seeing inconsistent revenue across
-  its regional stores but couldn't identify the root cause. This project
-  explored 18 months of transaction data across five regions to determine
-  whether underperformance was driven by sales volume, pricing, or return
-  rates. The analysis revealed that one region's gap was almost entirely
-  explained by an unusually high return rate on a single product category -
-  a finding invisible in the company's top-level reporting."
-
-  WHAT TO AVOID:
-  "This project analyzes sales data to find trends and insights."
-  (Too vague. Could describe 10,000 projects. Describes none of them.)
+e. Could describe 10,000 projects. Describes none of them.)
 -->
 
 **Context:** Nigerian financial institutions face escalating digital payment fraud, yet limited public datasets have hindered research into localized fraud patterns. The NIBSS dataset provides the first comprehensive, real-world transaction records from Africa's largest economy, enabling data-driven exploration of fraud behaviors specific to emerging market banking contexts.
@@ -84,7 +66,7 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 - **Primary Objective:** Analyze transaction-level patterns to identify distinguishing characteristics of fraudulent financial activities in the Nigerian banking ecosystem
 - **Secondary Objective 1:** Profile transaction amount behaviors — compare value distributions, frequency patterns, and velocity indicators between fraudulent and legitimate transactions
 - **Secondary Objective 2:** Examine channel and device vulnerabilities — analyze fraud rates across payment channels (web, mobile, POS, ATM) and device types to identify high-risk access points.
-- **Secondary Objective 3:** Map temporal fraud dynamics — uncover hourly, daily, and seasonal patterns in fraudulent transaction timing
+  **Secondary Objective 3:** Map temporal fraud dynamics — uncover hourly, daily, and seasonal patterns in fraudulent transaction timing
 
 > 💡 *Every analysis decision in this project traces back to one of these objectives.*
 
@@ -521,11 +503,10 @@ erDiagram
 **[Your Name]**
 [Your role or title - current or target]
 
-- 🔗 [LinkedIn URL]
+- 🔗 [(https://www.linkedin.com/in/emmanuel-ejike-690319314)]
 - 💼 [Portfolio or GitHub profile URL]
-- 📧 [Email - optional]
+- 📧 [ejemmanuelejike@hotmail.com]
 
 ---
 
 *Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
