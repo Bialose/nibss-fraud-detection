@@ -3,45 +3,32 @@ Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
 
 ---
 
-## ⚙️ Project Type Flags
+## ⚙️ Project Overview
 
-- [ ] Exploratory Data Analysis (EDA)
-- [ ] Dashboard / Data Visualization
-- [ ] Data Cleaning / Wrangling
-- [ ] Python / Pandas, Numpy etc
+This personal project explores transaction data using Python in Jupyter Notebook. The objective is to demonstrate practical data analysis skills and the ability to work with financial transaction records.
 
 
 ---
 
-## Table of Contents
-1. [Project Overview](#1-project-overview)
-2. [Objectives](#2-objectives)
+## Tool Used
+1. Python
+2. Jupyter Notebook
+4. Pandas
+5. Numpy
+6. Matplotlib
+7. Seaborn
  <!--
-4. [Project Scope & Tools](#3-project-scope--tools)
-5. [Repository Structure](#4-repository-structure)
-6. [Data Workflow](#5-data-workflow)
-7. [Data Model & Schema](#6-data-model--schema)
-*
-8. [Analysis & Metrics](#8-analysis--metrics)
-9. [Key Insights](#9-key-insights)
-10. [Recommendations](#10-recommendations)
-11. [Assumptions & Limitations](#11-assumptions--limitations)
-12. [Future Enhancements](#12-future-enhancements)
-13. [Deliverables](#13-deliverables)
-14. [Author](#14-author)
 
 --->
 
-## 1. Project Overview
+## Key Findings
+1. 1 million transaction records analyzed.
+2. 3,000 fraudulent transactions identified.
+3. 0.3% of transactions were labelled fraudulent.
+4. Mobile recorded the highest fraud count, with 1,496 cases.
+5. No fully duplicated rows were detected.
 
 
-**Context:** Nigerian financial institutions face escalating digital payment fraud, yet limited public datasets have hindered research into localized fraud patterns. The NIBSS dataset provides the first comprehensive, real-world transaction records from Africa's largest economy, enabling data-driven exploration of fraud behaviors specific to emerging market banking contexts.
-
-**Problem Statement:** Financial fraud detection suffers from extreme class imbalance, evolving attack patterns, and opaque decision-making. Analysts need rigorous exploratory methods to uncover distinguishing signals between legitimate and fraudulent transactions without relying on black-box models. This project addresses: How can systematic data analysis and visualization reveal interpretable fraud indicators from complex banking transaction data.
-
-**Approach:** This project employs a visualization-first analytical pipeline using Python's scientific stack (Pandas, Plotly, Seaborn) within Jupyter notebooks. The methodology progresses through data quality validation, univariate profiling, bivariate relationship analysis, temporal pattern extraction, and multivariate correlation discovery—all documented through reproducible, interactive visualizations that prioritize interpretability over predictive performance.
-
-**Outcome:** Deliverables include a public GitHub repository of annotated analytical notebooks, reusable visualization utilities, and documented insights into temporal fraud peaks, transaction amount signatures, and channel-specific vulnerabilities. Outputs serve as both educational resource for fraud analytics practitioners and exploratory foundation for future predictive modeling work.
 
 ---
 
