@@ -1,11 +1,19 @@
 Nigeria-Inter-Bank-Settlement-System (NIBSS) fraud Analytics
-> Analyzing NIBSS financial transaction data to detect patterns of fraudulent activity — helping financial institutions identify, understand, and reduce fraud risks that cost the Nigerian banking system billions annually
+> Exploring Financial Transaction Patterns and Fraud Indicators Using Python
 
 ---
 
 ## ⚙️ Project Overview
 
-This personal project explores transaction data using Python in Jupyter Notebook. The objective is to demonstrate practical data analysis skills and the ability to work with financial transaction records.
+Financial fraud remains a major challenge for financial institutions, payment service providers and businesses operating in digital financial environments.
+
+Identifying suspicious transaction patterns and understanding where fraudulent activities occur can help businesses improve monitoring, strengthen risk management and make better-informed decisions.
+
+This project explores a financial transaction dataset containing 1,000,000 transaction records and 29 columns using Python.
+
+The objective is to investigate transaction behavior, examine fraudulent and legitimate transactions, identify patterns across payment channels and customer segments, and communicate findings through data analysis and visualizations.
+
+The project demonstrates an end-to-end exploratory data analysis workflow, from data inspection and cleaning to analysis, visualization and reporting.
 
 
 ---
