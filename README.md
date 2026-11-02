@@ -18,16 +18,61 @@ The project demonstrates an end-to-end exploratory data analysis workflow, from 
 
 ---
 
-## Tool Used
+## Business Problem
+
+  Financial institutions process large volumes of transactions across multiple payment channels.
+
+However, understanding the distribution and characteristics of fraudulent transactions can be challenging without proper data exploration.
+
+This project addresses the following questions:
+
+What proportion of transactions are classified as fraudulent?
+How are fraudulent transactions distributed across payment channels?
+Which transaction channels account for the highest number of reported fraud cases?
+What patterns can be observed across merchant categories?
+How do fraudulent transactions vary across customer age groups?
+Are there differences in fraudulent activity across days of the week?
+What data quality issues should be considered before further analysis or predictive modelling? 
+
+
+## Project Objectives
+  
+  ✅ Inspect and understand the structure of the transaction dataset.
+  ✅ Identify missing values and duplicate records.
+  ✅ Examine the distribution of fraudulent and legitimate transactions.
+  ✅ Analyze fraud patterns across transaction channels.
+  ✅ Investigate transaction patterns across merchant categories.
+  ✅ Explore fraud distribution across customer age groups and weekdays.
+  ✅ Explore fraud distribution across customer age groups and weekdays.
+  ✅ Identify data quality considerations and opportunities for further investigation.
+
+  ## Dataset Information
+Attribute                     Description
+
+Dataset	                  NIBSS Fraud Dataset
+Source                         	Kaggle
+Creator	                Josiah Endurance Owolabi
+Records                        1,000,000
+Columns	                          29
+Target                    variable	is_fraud
+Analysis type          	Exploratory Data Analysis
+License                        CC BY-SA 4.0
+
+
+
+## Tools Used
 1. Python
 2. Jupyter Notebook
 4. Pandas
 5. Numpy
 6. Matplotlib
 7. Seaborn
- <!--
 
---->
+
+Original Dataset: [NIBSS Fraud Dataset on Kaggle](https://www.kaggle.com/datasets/hendurhance/nibsss-fraud-dataset)
+
+The dataset is used for portfolio and educational purposes. Please refer to the original Kaggle page for the dataset's attribution and licensing details
+
 
 ## Key Findings
 1. 1 million transaction records analyzed.
@@ -37,35 +82,54 @@ The project demonstrates an end-to-end exploratory data analysis workflow, from 
 5. No fully duplicated rows were detected.
 
 
-
 ---
 
-## 2. Objectives
+## Project Workflow
 
-<!--
-  Write objectives that are specific enough to succeed or fail.
-  Use action-oriented verbs: Identify, Determine, Quantify, Build, Evaluate.
+The analysis followed these stages:
 
-  WHAT GOOD LOOKS LIKE:
-  ✅ "Determine whether customer churn rate correlates with support ticket volume."
-  ✅ "Identify the top three revenue-driving product categories across all regions."
-  ✅ "Build a reproducible pipeline that ingests and cleans daily sales exports."
+##  1. Data Loading and Inspection
+Imported the dataset into Python.
+Examined the number of rows and columns.
+Reviewed column names and data types.
+Inspected sample records.
+##  2. Data Quality Assessment
+Checked for missing values.
+Investigated duplicate records.
+Examined inconsistencies in relevant fields.
+Considered appropriate handling of missing fraud-related information.
+##  3. Exploratory Data Analysis
 
-  WHAT TO AVOID:
-  ❌ "Explore the data."
-  ❌ "Gain insights."
-  ❌ "Understand trends."
-  (These can't fail - which means they can't succeed either.)
--->
+Investigated the distribution of fraudulent transactions across:
 
-- **Primary Objective:** Analyze transaction-level patterns to identify distinguishing characteristics of fraudulent financial activities in the Nigerian banking ecosystem
-- **Secondary Objective 1:** Profile transaction amount behaviors — compare value distributions, frequency patterns, and velocity indicators between fraudulent and legitimate transactions
-- **Secondary Objective 2:** Examine channel and device vulnerabilities — analyze fraud rates across payment channels (web, mobile, POS, ATM) and device types to identify high-risk access points.
-  **Secondary Objective 3:** Map temporal fraud dynamics — uncover hourly, daily, and seasonal patterns in fraudulent transaction timing
+* Fraudulent versus legitimate transactions.
+* Transaction channels.
+* Merchant categories.
+* Customer age groups.
+* Days of the week.
+* Available fraud technique classifications.
+## 4. Data Visualisation
 
-> 💡 *Every analysis decision in this project traces back to one of these objectives.*
+Created visual representations to make transaction patterns easier to understand and communicate.
 
-<!--
+## 5. Findings and Recommendations
+
+Summarised the observations, highlighted data quality considerations and identified opportunities for more advanced fraud analysis.
+
+## Fraud Distribution Across Transaction Channels
+
+The highest fraud case counts were observed in the following channels:
+
+Transaction            Channel	Fraud Cases
+Mobile                        1,496
+Web	                          687
+POS	                          551
+IB	                           168
+ECOM	                         76
+ATM	                          22
+
+
+##Important observation:## Mobile transactions accounted for the highest number of fraud cases in the dataset. However, fraud counts alone do not establish that a channel is riskier. Transaction volumes and fraud rates by channel should also be examined.
 
 ## 3. Project Scope & Tools
 
