@@ -50,14 +50,14 @@ What data quality issues should be considered before further analysis or predict
   ## Dataset Information
 | *Attribute*       |            *Description* |
 | :---            |  :---   
-Dataset	          |        NIBSS Fraud Dataset |
-Source            |            	Kaggle |
-Creator	          |      Josiah Endurance Owolabi |
-Records           |            1,000,000 |
-Columns	          |                29 |
-Target            |        variable	is_fraud |
-Analysis type     |     	Exploratory Data Analysis |
-License           |            CC BY-SA 4.0 |
+| Dataset	          |        NIBSS Fraud Dataset |
+| Source            |            	Kaggle |
+| Creator	          |      Josiah Endurance Owolabi |
+| Records           |            1,000,000 |
+| Columns	          |                29 |
+| Target            |        variable	is_fraud |
+| Analysis type     |     	Exploratory Data Analysis |
+| License           |            CC BY-SA 4.0 |
 
 -----
 
@@ -126,13 +126,13 @@ Summarised the observations, highlighted data quality considerations and identif
 The highest fraud case counts were observed in the following channels:
 
 | Transaction            Channel	Fraud Cases |
-------------------|---------------------------------
-Mobile            |           1,496
-Web	              |            687
-POS	              |            551
-IB	              |            168
-ECOM	            |            76
-ATM	              |            22
+| :---              |    :---   |
+| Mobile            |           1,496 |
+| Web	              |            687 |
+| POS	              |            551 |
+| IB	              |            168 |
+| ECOM	            |            76 |
+| ATM	              |            22 |
 
 
 ## Important observation: 
@@ -150,7 +150,8 @@ This requires careful interpretation because missing information should not auto
 
 ## Repository Structure
 
-nibss-transaction-fraud-analysis/ │
+nibss-transaction-fraud-analysis/ 
+│
 ├── README.md 
 ├── data_dictionary.md 
 ├── requirements.txt 
@@ -176,7 +177,7 @@ nibss-transaction-fraud-analysis/ │
 Install Python and Jupyter Notebook.
 
 ## Step 1: Clone the repository
-git clone https://github.com/YOUR-USERNAME/nibss-transaction-fraud-analysis.git
+git clone https://github.com/Bialose/nibss-transaction-fraud-analysis.git
 
 ## Step 2: Enter the project directory
 cd nibss-transaction-fraud-analysis
