@@ -147,7 +147,7 @@ This requires careful interpretation because missing information should not auto
 -----------
 
 ## Repository Structure
-
+```
 nibss-transaction-fraud-analysis/ 
 │
 ├── README.md 
@@ -168,6 +168,7 @@ nibss-transaction-fraud-analysis/
 │ 
 └── src/ 
       └── analysis.py
+```
 
 
 
