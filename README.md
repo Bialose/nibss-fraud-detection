@@ -121,12 +121,10 @@ Summarised the observations, highlighted data quality considerations and identif
 
 ## Fraud Distribution Across Transaction Channels
 
------ 
-
 The highest fraud case counts were observed in the following channels:
 
-| Transaction            Channel	Fraud Cases |
-| :---              |    :---   |
+| Transaction       |     Channel	Fraud Cases |
+| :---              |    :---                 |
 | Mobile            |           1,496 |
 | Web	              |            687 |
 | POS	              |            551 |
