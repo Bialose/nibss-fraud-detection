@@ -48,16 +48,16 @@ What data quality issues should be considered before further analysis or predict
 -----
 
   ## Dataset Information
-| Attribute                     Description |
-------------------|-----------------------------
-Dataset	          |        NIBSS Fraud Dataset
-Source            |            	Kaggle
-Creator	          |      Josiah Endurance Owolabi
-Records           |            1,000,000
-Columns	          |                29
-Target            |        variable	is_fraud
-Analysis type     |     	Exploratory Data Analysis
-License           |            CC BY-SA 4.0
+| *Attribute*       |            *Description* |
+| :---            |  :---   
+Dataset	          |        NIBSS Fraud Dataset |
+Source            |            	Kaggle |
+Creator	          |      Josiah Endurance Owolabi |
+Records           |            1,000,000 |
+Columns	          |                29 |
+Target            |        variable	is_fraud |
+Analysis type     |     	Exploratory Data Analysis |
+License           |            CC BY-SA 4.0 |
 
 -----
 
