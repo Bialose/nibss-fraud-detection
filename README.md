@@ -37,27 +37,27 @@ What data quality issues should be considered before further analysis or predict
 -----
 ## Project Objectives
   
-  ✅ Inspect and understand the structure of the transaction dataset.
-  ✅ Identify missing values and duplicate records.
-  ✅ Examine the distribution of fraudulent and legitimate transactions.
-  ✅ Analyze fraud patterns across transaction channels.
-  ✅ Investigate transaction patterns across merchant categories.
-  ✅ Explore fraud distribution across customer age groups and weekdays.
-  ✅ Explore fraud distribution across customer age groups and weekdays.
-  ✅ Identify data quality considerations and opportunities for further investigation.
+   * Inspect and understand the structure of the transaction dataset.
+   * Identify missing values and duplicate records.
+   * Examine the distribution of fraudulent and legitimate transactions.
+   * Analyze fraud patterns across transaction channels.
+   * Investigate transaction patterns across merchant categories.
+   * Explore fraud distribution across customer age groups and weekdays.
+   * Explore fraud distribution across customer age groups and weekdays.
+   * Identify data quality considerations and opportunities for further investigation.
 -----
 
   ## Dataset Information
-Attribute                     Description
-
-Dataset	                  NIBSS Fraud Dataset
-Source                         	Kaggle
-Creator	                Josiah Endurance Owolabi
-Records                        1,000,000
-Columns	                          29
-Target                    variable	is_fraud
-Analysis type          	Exploratory Data Analysis
-License                        CC BY-SA 4.0
+| Attribute                     Description |
+------------------|-----------------------------
+Dataset	          |        NIBSS Fraud Dataset
+Source            |            	Kaggle
+Creator	          |      Josiah Endurance Owolabi
+Records           |            1,000,000
+Columns	          |                29
+Target            |        variable	is_fraud
+Analysis type     |     	Exploratory Data Analysis
+License           |            CC BY-SA 4.0
 
 -----
 
@@ -125,16 +125,18 @@ Summarised the observations, highlighted data quality considerations and identif
 
 The highest fraud case counts were observed in the following channels:
 
-Transaction            Channel	Fraud Cases
-Mobile                       1,496
-Web	                          687
-POS	                          551
-IB	                          168
-ECOM	                        76
-ATM	                          22
-------------------
+| Transaction            Channel	Fraud Cases |
+------------------|---------------------------------
+Mobile            |           1,496
+Web	              |            687
+POS	              |            551
+IB	              |            168
+ECOM	            |            76
+ATM	              |            22
 
-##Important observation: Mobile transactions accounted for the highest number of fraud cases in the dataset. However, fraud counts alone do not establish that a channel is riskier. Transaction volumes and fraud rates by channel should also be examined.
+
+## Important observation: 
+Mobile transactions accounted for the highest number of fraud cases in the dataset. However, fraud counts alone do not establish that a channel is riskier. Transaction volumes and fraud rates by channel should also be examined.
 
 -----------
 
@@ -216,22 +218,21 @@ I am continuously developing my analytical skills through practical projects inv
 
 I welcome opportunities to collaborate on data analysis, data cleaning and reporting projects.
 
+- 🔗 linkedin- (https://www.linkedin.com/in/emmanuel-ejike-690319314)
+- 💼 Link to Project- (https://colab.research.google.com/drive/1A7ZILuiKjDPdEucTW7sX8uNuUjnyMNer#scrollTo=be3874b5-d76f-4e53-988c-cd426cb29ab2)
+- 📧 ejemmanuelejike@hotmail.com
 ----
 
 ## Dataset Attribution and Licence
 
 Dataset: NIBSS Fraud Dataset
-Creator: hend urhance (hendurhance)
+Creator: Josiah Endurance Owolabi
 Source: https://www.kaggle.com/datasets/hendurhance/nibsss-fraud-dataset
 Licence: Creative Commons Attribution-ShareAlike 4.0 International
 
 The dataset is attributed to its original creator. Any distributed adaptations of the dataset must comply with the applicable CC BY-SA 4.0 requirements.
 
 This project is independent and is not affiliated with or endorsed by the dataset creator.
-
-- 🔗 linkedin- (https://www.linkedin.com/in/emmanuel-ejike-690319314)
-- 💼 Link to Project- (https://colab.research.google.com/drive/1A7ZILuiKjDPdEucTW7sX8uNuUjnyMNer#scrollTo=be3874b5-d76f-4e53-988c-cd426cb29ab2)
-- 📧 ejemmanuelejike@hotmail.com
 
 ---
 
