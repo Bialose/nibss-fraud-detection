@@ -170,28 +170,6 @@ nibss-transaction-fraud-analysis/
       └── analysis.py
 ```
 
-
-
-## How to Run This Project
-Install Python and Jupyter Notebook.
-
-## Step 1: Clone the repository
-git clone https://github.com/Bialose/nibss-transaction-fraud-analysis.git
-
-## Step 2: Enter the project directory
-cd nibss-transaction-fraud-analysis
-
-## Step 3: Install dependencies
-pip install -r requirements.txt
-
-## Step 4: Obtain the dataset
-Download the dataset from the original Kaggle source and place it in the appropriate local data directory.
-
-## Step 5: Open Jupyter Notebook
-jupyter notebook
-
-Open the notebook inside the notebooks folder and run the analysis
-
 -----
 ## About the Analyst
 
