@@ -1,7 +1,5 @@
 # Data Directory
 
-  # Data Dictionary
-
 ## Overview
 
 This document provides an overview of the dataset used in the NIBSS Transaction Fraud Analysis project.
